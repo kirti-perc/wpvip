@@ -1,0 +1,101 @@
+
+/* PSTB backend css */
+
+
+
+.pstb-back-title{
+	font-size: 28px;
+	color:#000;
+}
+
+.pstb-back-subtitle{
+	font-size: 22px;
+	color:#000;
+}
+
+.table-booking_page_wctb-settings #wpcontent, .table_page_table-map #wpcontent{
+ 	padding:0px;
+}
+.pstb-settings,.booking-metabox,.table-map-sec{
+    background-color: #fff;
+    padding: 15px;
+}
+.pstb-settings th,.pstb-settings td{
+	text-align: left;
+	padding: 5px;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+.pstb-settings .pstb-instr{
+	font-size: 12px;
+	color: #6e6d6d;
+	font-weight: normal;
+}
+.pstb-settings .pstb-back-field{
+	padding: 5px;
+	border:1px solid #ccc;
+	width: 100%;
+}
+.pstb-settings label{
+	padding: 5px;
+	width: 100%;
+	font-weight: 600;
+}
+.pstb-metabox table{
+	width: 100%;
+}
+.table-booking_page_wctb-settings #wpbody, .table_page_table-map #wpbody{
+	background-color:#fff;
+}
+
+
+.table-map-sec .section{
+	width:30%;
+	float: left;	
+	min-height: 500px;
+	padding: 10px;
+}
+
+
+.table-map-sec .square{
+	width:150px;
+	height:100px;	
+}
+.table-map-sec .rectangle{
+	width:250px;
+	height:100px;	
+}
+.table-map-sec .circle{
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.table-map-sec .table{
+	border:1px solid #000;
+	padding: 10px;	
+	text-align: center;
+	margin: 0 auto 10px auto;
+}
+.table-map-sec .table-name{
+	font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.table-map-sec .table-person{	    
+    margin: 0px;
+    padding:0px;
+    font-size: 14px;
+}
+.table-map-sec .section-name{
+	font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px;
+}
+.table-map-sec .tbbs-title{
+	font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}

@@ -1,0 +1,465 @@
+/**
+ * AR Display
+ * https://augmentedrealityplugins.com
+**/
+.ar-button{
+    border: none; 
+    position: absolute; 
+    top: 6px; 
+    right: 6px; 
+	transform: scale(1);
+	animation: pulse 2s infinite;
+	background: none !important;
+}
+
+.ar-button:focus,
+.ar-button:active{
+    border: none; 
+    position: absolute; 
+    top: 6px; 
+    right: 6px; 
+}
+
+.ar-button-animation{
+    border: none; 
+    position: absolute; 
+    top: 26px; 
+    left: 6px; 
+    background: none;
+}
+.ar-button-default{
+    background-color: #ffffff !important; 
+    border-radius: 4px; 
+    padding: 4px;
+}
+.ar-button_standalone{
+    border: none; 
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+.column-Shortcode{
+    width:140px;
+}
+.column-thumbs{
+    width:20px;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
+}
+.ar-button-img{
+    height:50px;
+}
+.ar-button-animation{
+    height:25px;
+    width:25px;
+}
+/*.ar-display-model-viewer{
+    min-height:400px;
+}*/
+.ardisplay_viewer{
+    min-height:400px;
+    height:400px;
+}
+.ardisplay_viewerpop{
+    height:100vh;
+    z-index: 1000000; /* Sit on top */
+}
+.ar_site_logo{
+text-align: center !important;
+}
+.ar-qrcode {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff !important;
+    /*margin-right: 4px;*/
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.ar-qrcode_standalone {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    /*margin-right: 4px;*/
+    border-radius: 4px;
+    border: none;
+}
+.ar-qrcode-large {
+    width:250px;
+    height:250px;
+}
+.ar_controls{
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+  
+#variant{
+    font-size: 12px;
+    border: none;
+    line-height: 12px;
+}
+ 
+
+model-viewer {
+  width: 100%;
+  height: 100%;
+}
+#key{ 
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 24px;
+    margin-right: 15px; 
+}
+
+
+/* The Popup */
+.ar-fullscreen_btn-img{
+    width:25px;
+    height:25px !important;
+}
+.ar_popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100% !important; /* Full width */
+  max-width: 100% !important; /* Full width */
+  height: 100% !important; /* Full height */
+  max-height: 100% !important; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  margin-top: 0px !important;
+}
+.ar_popup-btn {
+  position:absolute;
+  background: none !important;
+  border:none;
+  color: white;
+  font-weight:bold;
+  top: 6px;
+  right: 6px;
+  cursor: pointer;
+}
+.ar_popup-header a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Popup Content */
+.ar_popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.ar_close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.ar_close:hover,
+.ar_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .hide_on_devices {display: none !important;}
+}
+
+.scale_input{
+    width:140px;
+    float: left;
+}
+.nodisplay{
+display:none !important;
+}
+
+.ar_admin_viewer{
+    float:left;
+    width:49%;
+    min-height:400px;
+}
+@media screen and (max-width: 1025px) {
+    .ar_admin_viewer{
+        padding-top:10px;
+        width:100%;
+    }
+}
+.ar_input_field{
+    width:300px !important;
+}
+/** Asset Builder **/
+
+.asset_btn {
+	background-color:#13383e;
+	border-radius:6px;
+	border:1px solid #e1e1e1;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.asset_btn:hover {
+	background-color:#49848f;
+}
+.asset_btn:active {
+	position:relative;
+	top:1px;
+}
+.ar_label_tip{
+    font-style:italic;
+    font-size:.8em;
+}
+
+/*Dimensions*/
+#controls {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    max-width: unset;
+    transform: unset;
+  }
+
+  .dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    --min-hotspot-opacity: 0;
+  }
+
+  .dimension{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    font-family: Futura, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    max-width: 128px;
+    overflow-wrap: break-word;
+    padding: 0.25em 0.5em;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    transform: translate3d(-50%, -50%, 0);
+    --min-hotspot-opacity: 0;
+  }
+
+  .show{
+    --min-hotspot-opacity: 1;
+  }
+
+.hotspot_annotation{
+    width:140px;
+}
+
+/************ Product Listing page (ToolTips) *************/
+
+
+.ar_tooltip img:hover{
+cursor:help;
+}
+
+.ar_tooltip::after {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: help;
+}
+
+.ar_tooltip {
+    position: relative;
+    bottom:0px;
+    color: #666;
+    font-size: 1.2em;
+    top:2px;
+}
+
+.ar_tooltip .ar_tooltip_text {
+    visibility: hidden;
+    width: 5em;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    bottom: -4.8em;
+    margin-left: -4.2em;
+    opacity: 0;
+    transition: opacity 0s;
+    font-size: 10px !important;
+    background: #333;
+    text-align: center;
+    border-radius: 3px;
+    padding: .618em 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+
+.ar_tooltip .ar_tooltip_text::after {
+    content: "";
+    position: absolute;
+    top: -1em;
+    left: 48%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333; 
+}
+
+.ar_tooltip:hover .ar_tooltip_text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+/****** Thumbnail Slider ******/
+
+
+
+.ar_slider {
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+}
+
+.ar_slides {
+display: flex;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+-webkit-overflow-scrolling: touch;
+}
+
+.ar_slide {
+scroll-snap-align: start;
+flex-shrink: 0;
+width: 50px;
+height: 50px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-color: #fff;
+margin-right: 6px;
+border-radius: 10px;
+border: none;
+display: flex;
+cursor: pointer;
+}
+
+.ar_slide.selected {
+border: 2px solid #4285f4;
+}
+
+.ar_slide:focus {
+outline: none;
+}
+
+.ar_slide:focus-visible {
+outline: 1px solid #4285f4;
+}
+
+.ar_admin_label{
+    width:200px;
+    float:left;
+    padding-bottom:10px;
+}
+.ar_admin_field{
+    float:left;
+    padding-bottom:10px;
+}
+
+/*.ar-cta-button-container{
+    position: absolute;
+    background: none !important;
+    bottom: 0px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width:250px;
+    cursor: pointer;
+}*/
+.ar_cta_button{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width:250px;
+    cursor: pointer;
+}
+/*********** End ***************/

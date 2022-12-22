@@ -1,0 +1,111 @@
+
+1 Nov 22, 06:16
+'plugin enabled'
+
+1 Nov 22, 06:16
+'Migrate - Migration Not Possible'
+
+1 Nov 22, 06:17
+'Processing Wizard Step 1 - Processing...'
+
+1 Nov 22, 06:17
+'Setup Wizard - Connect'
+
+1 Nov 22, 06:17
+'Processing Wizard Step 2 - Processing...'
+
+1 Nov 22, 06:17
+'Wizard Step 2 - Call Api - List search engines '
+
+1 Nov 22, 06:17
+'Wizard Step 2 - API key: 1969eb771ada975ed26d754f838157ddd19f6254'
+
+1 Nov 22, 06:17
+'Wizard Step 2 - API host: https://eu1-api.doofinder.com'
+
+1 Nov 22, 06:17
+'Wizard Step 2 - List Search engines Response: '
+
+1 Nov 22, 06:17
+Array
+(
+)
+
+1 Nov 22, 06:17
+'Wizard Step 2 - List search engines - success '
+
+1 Nov 22, 06:17
+'Clear All Settings'
+
+1 Nov 22, 06:17
+'Processing Wizard Step 2 - All data saved'
+
+1 Nov 22, 06:17
+'Processing Wizard Step 3'
+
+1 Nov 22, 06:17
+'Wizard Step 3'
+
+1 Nov 22, 06:17
+'Wizard Step 3 - Try Create the Store'
+
+1 Nov 22, 06:17
+'=== Store API CALL === '
+
+1 Nov 22, 06:17
+'Wizard Step 3 - Exception'
+
+1 Nov 22, 06:17
+'Client error: `POST https://eu1-admin.doofinder.com/plugins/create-store` resulted in a `400 Bad Request` response:
+{"errors":["Invalid domain"]}
+'
+
+25 Nov 22, 10:02
+'upgrader_process - start'
+
+25 Nov 22, 10:02
+'doofinder-for-woocommerce/doofinder-for-woocommerce.php'
+
+25 Nov 22, 10:02
+Array
+(
+    [action] => update
+    [type] => core
+)
+
+28 Nov 22, 08:47
+'upgrader_process - start'
+
+28 Nov 22, 08:47
+'doofinder-for-woocommerce/doofinder-for-woocommerce.php'
+
+28 Nov 22, 08:47
+Array
+(
+    [type] => plugin
+    [action] => install
+)
+
+28 Nov 22, 08:48
+'plugin disabled'
+
+28 Nov 22, 08:48
+'Migrate - Set Api key'
+
+28 Nov 22, 08:48
+'Host: https://eu1-api.doofinder.com'
+
+28 Nov 22, 08:48
+'Host prefix: eu1'
+
+28 Nov 22, 08:48
+'Migrate - Set Admin Endpoint'
+
+28 Nov 22, 08:48
+'Migrate - Set Search Server'
+
+28 Nov 22, 08:48
+'Migrate - Add custom notice'
+
+28 Nov 22, 08:48
+'Migrate - Migration Completed'

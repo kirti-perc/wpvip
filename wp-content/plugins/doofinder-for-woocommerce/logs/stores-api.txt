@@ -1,0 +1,44 @@
+
+1 Nov 22, 06:17
+'-------------  API HOST ------------- '
+
+1 Nov 22, 06:17
+NULL
+
+1 Nov 22, 06:17
+'Wizard Step 2 - Prepare Search Enginge body : '
+
+1 Nov 22, 06:17
+'store_data: '
+
+1 Nov 22, 06:17
+Array
+(
+    [name] => wp_demo
+    [platform] => woocommerce
+    [primary_language] => en
+    [skip_indexation] => 1
+    [search_engines] => Array
+        (
+            [0] => Array
+                (
+                    [name] => localhost (EN)
+                    [language] => en
+                    [currency] => INR
+                    [site_url] => http://localhost/wp_6_demo
+                    [datatypes] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => product
+                                    [preset] => product
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [sector] => others
+)

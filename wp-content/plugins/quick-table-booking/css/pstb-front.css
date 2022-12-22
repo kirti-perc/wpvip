@@ -1,0 +1,144 @@
+
+/* pstb front css here */
+
+.booking-form-wrapper{
+	width:100%;
+	max-width:100% !important;
+	min-width: 100%;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.field-wrp{
+	margin: 10px 0px;
+}
+.field-wrp .psbk-field{
+	width:100%;
+	padding:5px;
+	margin:0px;
+	border:1px solid #ccc;
+	font-size:16px;
+	font-family: sans-serif;
+	line-height: 1.8;
+    font-weight: 400;
+}
+.step-btn-sec  .psbk-btn{
+	border: 1px solid #ccc;
+    padding: 8px;    
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin:0px 10px;
+}
+.psbk-next-btn-sec{
+	text-align: right;
+}
+.psbk-prev-btn-sec{
+	text-align: left;
+}
+.pstb-step{
+	padding: 30px;
+	border:1px solid #ccc;
+}
+.step-btn-sec{
+	text-align: center;
+}
+#pstb_booking_form_step2,#pstb_booking_form_table_list{
+	display: none;
+}
+.error{
+	color:red;
+}
+.psbk-rad-btn{
+	margin-right: 5px;
+}
+.woocommerce-additional-fields h3{
+	display: none;
+}
+.booking-form-wrapper label.psbk-lbl {
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+}
+.booking-form-wrapper .psbk-dw-field{
+	padding: 10px;
+}
+.booking-form-wrapper .tbbs-title{
+	font-size: 28px;
+    text-align: center;
+    margin:0px;
+}
+.booking-form-wrapper .step-btn-sec{
+	width: 100%;
+    display: inline-block;    
+    margin-top: 20px;
+}
+.booking-form-wrapper .section{
+	width:33%;
+	float: left;
+	/*border-right:1px solid #000;*/
+	min-height: 500px;
+	padding: 10px;
+}
+.booking-form-wrapper .section:last-child{
+
+	/*border-right:0px !important;*/
+}
+.booking-form-wrapper .square{
+	width:150px;
+	height:150px;	
+}
+.booking-form-wrapper .rectangle{
+	width:250px;
+	height:150px;	
+}
+.booking-form-wrapper .circle{
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.pstb-step .table{
+	border:1px solid #000;
+	padding: 10px;	
+	text-align: center;
+	margin: 0 auto 10px auto;
+}
+.booking-form-wrapper .table-name{
+	font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+}
+.table-person{	    
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.section-name{
+	font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px;
+}
+.tbbs-title{
+	font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+.ck-bk-details{
+	display: inline-block;
+}
+@media only screen and (min-width: 1024px) {
+	.booking-form-wrapper .field-wrp.psbk-half{
+		width:49%;
+		float:left;
+	}
+	.booking-form-wrapper .field-wrp.psbk-right-field{
+		float:right;
+	}	
+}
+@media only screen and (max-width: 768px) {
+	.booking-form-wrapper .section {
+		width: 100%;
+	}
+}

@@ -1,0 +1,355 @@
+# Copyright (C) 2022 iconic-woo-show-single-variations
+# This file is distributed under the same license as the iconic-woo-show-single-variations package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iconic-woo-show-single-variations\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-27 18:59+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: iconic-woo-show-single-variations.php:756
+msgid "Show in Search Results?"
+msgstr ""
+
+#: iconic-woo-show-single-variations.php:763
+msgid "Show in Filtered Results?"
+msgstr ""
+
+#: iconic-woo-show-single-variations.php:770
+msgid "Show in Catalog?"
+msgstr ""
+
+#: iconic-woo-show-single-variations.php:777
+msgid "Featured"
+msgstr ""
+
+#: iconic-woo-show-single-variations.php:784
+msgid "Disable \"Add to Cart\"?"
+msgstr ""
+
+#: iconic-woo-show-single-variations.php:792
+msgid "Listings Only?"
+msgstr ""
+
+#: inc/class-core-licence.php:280
+msgid "Back to Settings"
+msgstr ""
+
+#: inc/class-core-licence.php:306
+msgid "Changelog"
+msgstr ""
+
+#: inc/class-core-licence.php:317
+msgid "Manage Licence &amp; Billing"
+msgstr ""
+
+#: inc/class-core-onboard.php:60, inc/class-core-onboard.php:69
+msgid "Get Started"
+msgstr ""
+
+#: inc/class-core-onboard.php:75
+msgid "Steps"
+msgstr ""
+
+#: inc/class-core-onboard.php:521
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/class-core-onboard.php:522
+msgid "Are you sure you want to dismiss the Get Started tab? You won't be able to access it again."
+msgstr ""
+
+#: inc/class-core-onboard.php:524
+msgid "Yes"
+msgstr ""
+
+#: inc/class-core-onboard.php:525, inc/class-index.php:198, inc/class-index.php:230
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-core-onboard.php:601
+msgid "Priority Support"
+msgstr ""
+
+#: inc/class-core-onboard.php:602
+msgid "Help is at hand if you face any issues."
+msgstr ""
+
+#: inc/class-core-onboard.php:605
+msgid "Get Help"
+msgstr ""
+
+#: inc/class-core-settings.php:318
+msgid "Getting Started"
+msgstr ""
+
+#: inc/class-core-settings.php:362
+msgid "Dashboard"
+msgstr ""
+
+#: inc/class-core-settings.php:369
+msgid "License &amp; Account Settings"
+msgstr ""
+
+#: inc/class-core-settings.php:375
+msgid "License &amp; Billing"
+msgstr ""
+
+#: inc/class-core-settings.php:376
+msgid "Activate or sync your license, cancel your subscription, print invoices, and manage your account information."
+msgstr ""
+
+#: inc/class-core-settings.php:382
+msgid "Your Account"
+msgstr ""
+
+#: inc/class-core-settings.php:383
+msgid "Manage all of your Iconic plugins, supscriptions, renewals, and more."
+msgstr ""
+
+#: inc/class-core-settings.php:395, inc/class-core-settings.php:401
+msgid "Support"
+msgstr ""
+
+#: inc/class-core-settings.php:402
+msgid "Get premium support with a valid license."
+msgstr ""
+
+#: inc/class-core-settings.php:408
+msgid "Documentation"
+msgstr ""
+
+#: inc/class-core-settings.php:409
+msgid "Read the plugin documentation."
+msgstr ""
+
+#: inc/class-core-settings.php:655
+msgid "Buy Plugin"
+msgstr ""
+
+#: inc/class-core-settings.php:658
+msgid "30 Day Money-Back Guarantee"
+msgstr ""
+
+#: inc/class-core-settings.php:683
+msgid "Submit Ticket"
+msgstr ""
+
+#: inc/class-core-settings.php:692
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/class-core-settings.php:701
+msgid "Manage Your Account"
+msgstr ""
+
+#: inc/class-index.php:57
+msgid "Index"
+msgstr ""
+
+#: inc/class-index.php:63
+msgid "Tools"
+msgstr ""
+
+#: inc/class-index.php:69
+msgid "Index Products"
+msgstr ""
+
+#: inc/class-index.php:70
+msgid "Configure the visibility of your products and variations in bulk."
+msgstr ""
+
+#: inc/class-index.php:156
+msgid "Run Indexer"
+msgstr ""
+
+#: inc/class-index.php:170
+msgid "Loading..."
+msgstr ""
+
+#: inc/class-index.php:174
+msgid "Variation Visibility"
+msgstr ""
+
+#: inc/class-index.php:176
+msgid "This step will configure the visibility settings of all variations in your store. You can still change these settings later, on a per-variation basis."
+msgstr ""
+
+#: inc/class-index.php:178
+msgid "Show all product variations in the:"
+msgstr ""
+
+#: inc/class-index.php:182
+msgid "Catalog/shop pages"
+msgstr ""
+
+#: inc/class-index.php:185
+msgid "Filtered results"
+msgstr ""
+
+#: inc/class-index.php:188
+msgid "Search results"
+msgstr ""
+
+#: inc/class-index.php:193
+msgid "Overwrite existing variation settings"
+msgstr ""
+
+#: inc/class-index.php:197
+msgid "Next"
+msgstr ""
+
+#: inc/class-index.php:203
+msgid "Variable Product Visibility"
+msgstr ""
+
+#: inc/class-index.php:205
+msgid "Usually, you do not want the parent variable product showing up alongside the variations in the shop pages. Use these settings to configure the visibility of those variable products."
+msgstr ""
+
+#: inc/class-index.php:211
+msgid "Keep unchanged"
+msgstr ""
+
+#: inc/class-index.php:214
+msgid "Shop and search results"
+msgstr ""
+
+#: inc/class-index.php:217
+msgid "Shop only"
+msgstr ""
+
+#: inc/class-index.php:220
+msgid "Search results only"
+msgstr ""
+
+#: inc/class-index.php:223
+msgid "Hidden"
+msgstr ""
+
+#: inc/class-index.php:229
+msgid "Submit"
+msgstr ""
+
+#: inc/class-index.php:234
+msgid "Processing"
+msgstr ""
+
+#: inc/class-index.php:235
+msgid "to"
+msgstr ""
+
+#: inc/class-index.php:236
+msgid "of"
+msgstr ""
+
+#: inc/class-index.php:237
+msgid "items"
+msgstr ""
+
+#: inc/class-index.php:237
+msgid "please wait..."
+msgstr ""
+
+#: inc/class-index.php:244
+msgid "Process complete"
+msgstr ""
+
+#: inc/class-index.php:246
+msgid "items were processed."
+msgstr ""
+
+#: inc/class-index.php:249
+msgid "Close"
+msgstr ""
+
+#: inc/class-product.php:214
+msgid "Exclude from filtered results"
+msgstr ""
+
+#: inc/admin/settings.php:21
+msgid "General"
+msgstr ""
+
+#: inc/admin/settings.php:28
+msgid "Variation Settings"
+msgstr ""
+
+#: inc/admin/settings.php:34
+msgid "Variation Title Format"
+msgstr ""
+
+#: inc/admin/settings.php:35
+msgid "Determines how your variation titles are formatted by default. You can also set a custom title on a per-variation basis in the variation edit screen."
+msgstr ""
+
+#: inc/admin/settings.php:39
+msgid "Inherit parent title"
+msgstr ""
+
+#: inc/admin/settings.php:40
+msgid "Append variation attributes"
+msgstr ""
+
+#: inc/admin/settings.php:49
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/admin/settings.php:55
+msgid "Add Variations To All Product Queries"
+msgstr ""
+
+#: inc/admin/settings.php:56
+msgid "Automatically add configured variations to all product query instances in the frontend, including all custom WP_Query instances."
+msgstr ""
+
+#: inc/admin/variation-additional-fields.php:3
+msgid "Display Options"
+msgstr ""
+
+#: inc/admin/variation-additional-fields.php:8
+msgid "Title"
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:1
+msgid "Visibility"
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:2
+msgid "Toggle \"Show in Search Results\""
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:3
+msgid "Toggle \"Show in Filtered Results\""
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:4
+msgid "Toggle \"Show in Catalog\""
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:5
+msgid "Toggle \"Featured\""
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:8
+msgid "Cart"
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:9
+msgid "Toggle \"Disable 'Add to Cart'\""
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:12
+msgid "Filters"
+msgstr ""
+
+#: inc/admin/variation-bulk-edit-actions.php:13
+msgid "Update \"Filter Counts\""
+msgstr ""
